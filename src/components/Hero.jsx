@@ -35,33 +35,33 @@
 
 
 
-import {logo } from '../assets';
+import { logo } from '../assets';
 
 import React from 'react'
 
 const Hero = () => {
   return (
-  <header className="w-full flex justify-center items-center flex-col " >
-  <nav className='flex justify-between w-full mb-10'>
-    
-    <img src={logo} alt="some logo"  className='w-28 object-contain '></img>
+    <header className="w-full flex justify-center items-center flex-col " >
+      <nav className='flex justify-between w-full mb-10'>
 
-    <button type="button" onClick={() => window.open('https://goggle.com')} className='black_btn'>
-      github
-    </button>
-</nav>
+        <img src={logo} alt="some logo" className='w-28 object-contain '></img>
 
-<h1 className='head_text'> Summurize Articles with <br className='max-md:hidden'></br> 
-<span className='orange_gradient'>
-  Open AI GPT -3
-</span>
-</h1>
-<h2 className='desc'>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus alias vel animi iure iusto officia consequuntur dolorem quia assumenda a.
+        <button type="button" onClick={() => window.open('https://goggle.com')} className='black_btn'>
+          github
+        </button>
+      </nav>
 
-</h2>
- 
-  </header>
+      <h1 className='head_text'>Welcome Url 2 Summary<br className='max-md:hidden'></br>
+        <span className='orange_gradient'>
+          Open AI GPT -3
+        </span>
+      </h1>
+      <h2 className='desc'>
+        Summarize any web content in seconds. Just enter the URL and get concise summaries instantly. Save time, stay informed!
+
+      </h2>
+
+    </header>
 
 
   )
