@@ -35,6 +35,7 @@
 
 
 
+// import { logo } from '../assets';
 import { logo } from '../assets';
 
 import React from 'react'
@@ -46,12 +47,13 @@ const Hero = () => {
 
         <img src={logo} alt="some logo" className='w-28 object-contain '></img>
 
-        <button type="button" onClick={() => window.open('https://goggle.com')} className='black_btn'>
-          github
+        <button type="button" onClick={() => window.open('https://linktr.ee/prathmeshgarule')} className='black_btn'>
+          connect
         </button>
       </nav>
 
-      <h1 className='head_text'>Welcome Url 2 Summary<br className='max-md:hidden'></br>
+      <h1 className='head_text'>
+        Welcome to URL2Summary!<br className='max-md:hidden'></br>
         <span className='orange_gradient'>
           Open AI GPT -3
         </span>

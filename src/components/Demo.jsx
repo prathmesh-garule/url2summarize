@@ -191,13 +191,13 @@ const Demo = () => {
         <form className='relative flex jsutify-center items-center' onSubmit={handleSubmit}>
           <img src={linkIcon} alt="link_icon" className='absolute left-0 my-2 ml-3 w-5'></img>
           <input type='url'
-            placeholder='Nter a Url'
+            placeholder='just paste website URL here'
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             requireds
             className='url_input peer'
           ></input>
-          <button type='submit' className='submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700'></button>
+          <button type='submit' className='submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700'>__/^\__</button>
         </form>
         {/* <History></History> */}
 
