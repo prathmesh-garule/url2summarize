@@ -1,2 +1,2 @@
 !summurize your content just paste url
-https://snapsummarize.netlify.app/
+https://url2summary.netlify.app/
